@@ -10,6 +10,9 @@
 
 <script>
 class ConversationView {
+  static get modelName() {
+		return 'ConversationView'
+	}
   constructor(props) {
     Object.assign(this, props);
   }
